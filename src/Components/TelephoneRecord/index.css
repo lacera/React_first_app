@@ -1,0 +1,75 @@
+.telephone-record {
+    list-style-type: none;
+    height: 36px;
+}
+    .telephone-record__div__num {
+        float: left;
+        width: 32px;
+        height: 32px;
+        border-right: 2px solid #b9b9b9;
+        border-left: 3px solid #666;
+        font: bold 18px Arial;
+        color: #666;
+        text-indent: 6px;
+        line-height: 32px;
+        background-color: #e7e7e7;
+        overflow: hidden;
+    }
+
+    .telephone-record__div__name-email {
+        float: left;
+        width: 180px;
+        height: 32px;
+        border-right: 2px solid #b9b9b9;
+        text-indent: 6px;
+        font: bold 14px Arial;
+        color: #666;
+        background-color: #e7e7e7;
+        text-overflow: clip;
+        overflow: hidden;
+    }
+        .telephone-record__div__name {
+            line-height: 18px;
+        }
+        .telephone-record__div__email {
+            font: bold 11px Arial;
+            color: #7d7d7d;
+            line-height: 14px;
+        }
+
+    .telephone-record__div__telephone {
+        float: left;
+        width: 120px;
+        height: 32px;
+        text-indent: 4px;
+        font: bold 16px Arial;
+        color: #666;
+        background-color: #e7e7e7;
+        text-overflow: clip;
+        overflow: hidden;
+    }
+        .telephone-record__div__telephone__ico {
+            float: left;
+            width: 22px;
+            height: 32px;
+            line-height: 32px;
+        }
+        .telephone-record__div__telephone__number {
+            float: left;
+            font: bold 12px Arial;
+            width: 98px;
+            height: 32px;
+            line-height: 32px;
+            text-overflow: clip;
+        }
+    .telephone-record__div__delete {
+        float: left;
+        font: bold 32px Arial;
+        color: #af1821;
+        width: 30px;
+        height: 32px;
+        text-indent: 6px;
+        line-height: 32px;
+        cursor: pointer;
+        background-color: #e7e7e7;
+    }

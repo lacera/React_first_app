@@ -1,0 +1,14 @@
+.input-text-box {
+    height: 30px;
+    margin: 0 0 15px;
+    padding-left: 10px;
+    border-left: 3px solid #000;
+    border-bottom: 1px solid #d3d3d3;
+}
+    .input-text-box__input-element {
+        width: 95%;
+        height: 90%;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
